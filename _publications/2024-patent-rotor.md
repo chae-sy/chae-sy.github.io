@@ -1,7 +1,7 @@
 ---
 title: "Method for Rotor Failure Detection Based on Artificial Intelligence"
 collection: publications
-type: "patent"
+category: "patent"
 permalink: /publication/2024-patent-rotor
 date: 2024-01-01
 venue: "Korean Patent 10-2024-0008103"

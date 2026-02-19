@@ -1,7 +1,7 @@
 ---
 title: "Rotor Fault Diagnosis Method Based on 1D-CNN LSTM"
 collection: publications
-type: "conference"
+category: "conference"
 permalink: https://factory.skku.edu/factory/research.do?mode=view&articleNo=163355&article.offset=175&articleLimit=25
 date: 2023-11-16
 venue: "2023 O2O Integrated Conference of the Institute of Internet, Broadcasting and Communication"
