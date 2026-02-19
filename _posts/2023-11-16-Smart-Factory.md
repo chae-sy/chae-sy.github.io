@@ -1,6 +1,6 @@
 ---
 title: "[Project] Smart Factory Capstone Design : Rotor Fault Diagnosis Method Based on 1D-CNN LSTM"
-date: 2024-11-16
+date: 2023-11-16
 ---
 
 # Anomaly Detection Based on 1D-CNN LSTM for Rotating Machines
@@ -49,7 +49,7 @@ Figure 1 shows the **Rotor Testbed**, implemented using the **ERA (Educational R
 
 The **Controller Module** adjusts the rotational speed (RPM) of the disks; in this experiment, vibration data were collected at **1,500 RPM**. The BLDC motor enables fine-grained speed control without mechanical brushes. The disk section contains 36 bolt holes, and mass imbalance was introduced by fixing a single bolt at a 270° position.
 
-![image.png](/images/2024-11-16/image.png)
+![image.png](/images/2023-11-16/image.png)
 
 **Figure 1. Rotor Testbed**
 
@@ -57,7 +57,7 @@ The proposed **1D-CNN LSTM-based fault diagnosis system** is illustrated in Figu
 
 The **1D-CNN** effectively captures temporal and frequency-domain features in time-series data, while the **LSTM** network learns long-term dependencies inherent in such sequences. The combination of these two architectures allows efficient extraction and interpretation of temporal patterns in rotating machinery vibration data.
 
-![image.png](/images/2024-11-16/image%201.png)
+![image.png](/images/2023-11-16/image%201.png)
 
 **Figure 2. 1D-CNN LSTM Architecture**
 
@@ -78,15 +78,15 @@ Instead of performing multi-class classification, binary classification was cond
 
 The results are visualized in Figures 3–5 using confusion matrices. The proposed method achieved diagnostic accuracies of **95.6%, 71.4%, and 97.4%** for the three fault types, respectively.
 
-![image.png](/images/2024-11-16/image%202.png)
+![image.png](/images/2023-11-16/image%202.png)
 
 **Figure 3. Normal vs. Unbalance**
 
-![image.png](/images/2024-11-16/image%203.png)
+![image.png](/images/2023-11-16/image%203.png)
 
 **Figure 4. Normal vs. Mechanical Looseness**
 
-![image.png](/images/2024-11-16/image%204.png)
+![image.png](/images/2023-11-16/image%204.png)
 
 **Figure 5. Normal vs. Unbalance and Mechanical Looseness**
 
