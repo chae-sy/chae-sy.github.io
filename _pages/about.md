@@ -44,7 +44,7 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 
 ## 📰 News
 
-- Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC). [paper](https://chae-sy.github.io/publications/2025-isocc-llm-fpga)
+- Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC). 
 - Jun 2025 — I've attended the VLSI Symposium 2025.
 - Mar 2025 — I've awarded the Extra-Curricular Challenge Scholarship.
 
