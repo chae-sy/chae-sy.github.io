@@ -1,8 +1,8 @@
-
 ---
 title: "[tape-out project] CNN-based keyword spotting system with framewise incremental computation"
 date: 2024-12-30
 ---
+This project describes the design and implementation of a CNN-based keyword spotting system, including algorithm selection, RTL design, logic synthesis, and place-and-route for tape-out submission.
 
 **Research Period:** September 2, 2024 – December 20, 2024
 
