@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student working on efficient and reliable deep learning systems.  
+👋 I am a prospective PhD student working on efficient and reliable deep learning systems.  
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
-My current interests include:
+🔎 **My current interests include:**
 - Model compression (quantization & sparsity)
 - Memory-efficient inference for large language models (LLMs)
 - KV-cache optimization for long-context decoding
@@ -19,7 +19,7 @@ My current interests include:
 
 ---
 
-## Research Vision
+## 🎯 Research Vision
 
 Modern AI models are becoming increasingly large and computationally demanding.  
 I am interested in bridging the gap between algorithm design and hardware constraints — designing methods that are not only theoretically sound, but also efficient in memory, latency, and energy.
@@ -28,7 +28,7 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 
 ---
 
-## Current Research
+## 🧪 Current Research
 
 ### Memory-Efficient LLM Inference
 - KV-cache quantization and adaptive precision scheduling  
@@ -41,26 +41,26 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 - Dataflow optimization for CNN and transformer models  
 
 ---
-## News
+
+## 📰 News
 
 - Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC). [paper](https://chae-sy.github.io/publications/2025-isocc-llm-fpga)
 - Jun 2025 — I've attended the VLSI Symposium 2025.
 - Mar 2025 — I've awarded the Extra-Curricular Challenge Scholarship.
 
-
 ---
 
-## Education
+## 🎓 Education
 
 **[Your University Name]**  
 PhD in [Your Department] (Year – Present)
 
-**[Sungkyunkwan University]**  
+**Sungkyunkwan University**  
 B.S. in Electronic and Electrical Engineering (2022 - 2026)
 
 ---
 
-## Contact
+## 📬 Contact
 
-Email: sychaeee@g.skku.edu  
-GitHub: https://github.com/chae-sy
+✉️ Email: sychaeee@g.skku.edu  
+💻 GitHub: https://github.com/chae-sy

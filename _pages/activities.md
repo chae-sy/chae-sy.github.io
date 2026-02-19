@@ -1,6 +1,6 @@
 ---
-title: "Experiences"
-permalink: /experiences/
+title: "Activities"
+permalink: /activities/
 author_profile: true
 ---
 
