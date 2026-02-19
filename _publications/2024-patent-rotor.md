@@ -8,4 +8,3 @@ venue: "Korean Patent 10-2024-0008103"
 authors: "Jongpil Jeong, Daehee Lee, Jungmin Yoo, Seoyoon Chae, Sewon Kim, Chaegyu Lee, Yewon Jeong"
 ---
 
-Korean Patent No. 10-2024-0008103.
