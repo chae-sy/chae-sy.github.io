@@ -20,7 +20,7 @@ Unlike prior works, our work introduces a fully digitized computation and model 
 
 ### 3. System Overview
 
-![Fig. 1 : Overall System Pipeline](images/25-10-10/image.png)
+![Fig. 1 : Overall System Pipeline](images/2025-10-10/image.png)
 
 Fig. 1 : Overall System Pipeline
 
@@ -36,7 +36,7 @@ In this project, the **Neural Engine (**highlighted in the red box of Fig. 1) wa
 
 ### 4. Model Design
 
-![Fig. 2 : Model Design ](images/25-10-10/image_1.png)
+![Fig. 2 : Model Design ](images/2025-10-10/image_1.png)
 
 Fig. 2 : Model Design 
 
@@ -62,21 +62,30 @@ The model was trained on the **Google Speech Commands v2 (GSCD)** dataset using 
 
 Loss functions were defined using **AAM-Softmax**, with task-specific weighting parameters:
 
-- **SV loss (λₛᵥ = 0.3)**
-- **KWS loss (λₖʷₛ = 0.25)**
-- **VAD loss (λᵥₐd = 1.0)**
+- **SV loss** ($\lambda_{sv} = 0.3$)
+- **KWS loss** ($\lambda_{kws} = 0.25$)
+- **VAD loss** ($\lambda_{vad} = 1.0$)
+
 
 Formally, the total training objective was expressed as:
 
-$\mathcal{L}_{total} = \lambda_{vad}\mathcal{L}_{vad} + \lambda_{kws}\mathcal{L}_{kws} + \lambda_{sv}\mathcal{L}_{sv}$
+$$
+\mathcal{L}_{total}
+=
+\lambda_{vad}\mathcal{L}_{vad}
++
+\lambda_{kws}\mathcal{L}_{kws}
++
+\lambda_{sv}\mathcal{L}_{sv}
+$$
 
-where Lkws\mathcal{L}_{kws}Lkws and Lsv\mathcal{L}_{sv}Lsv were computed using **AAMSoftmaxLoss(num_classes, num_emb_dim)** for 64- and 256-dimensional embeddings, respectively.
+where $\mathcal{L}_{kws}$ and $\mathcal{L}_{sv}$ were computed using $\mathrm{AAMSoftmaxLoss}(\text{num\_classes}, \text{num\_emb\_dim})$ for 64- and 256-dimensional embeddings, respectively.
 
 ---
 
 ### 5. Hardware Design
 
-![Fig. 3 : Hardware Architecture](images/25-10-10/image_2.png)
+![Fig. 3 : Hardware Architecture](images/2025-10-10/image_2.png)
 
 Fig. 3 : Hardware Architecture
 
@@ -138,11 +147,11 @@ The quantized neural-network accelerator was implemented using the **Samsung 28 
 
 ### 6.1 Layout Overview
 
-![Fig 4. Schematic View of Synthesized Design ](images/25-10-10/image_3.png)
+![Fig 4. Schematic View of Synthesized Design ](images/2025-10-10/image_3.png)
 
 Fig 4. Schematic View of Synthesized Design 
 
-![Fig 5.  Layout view of the Design ](images/25-10-10/image_4.png)
+![Fig 5.  Layout view of the Design ](images/2025-10-10/image_4.png)
 
 Fig 5.  Layout view of the Design 
 
@@ -154,7 +163,7 @@ Fig 5.  Layout view of the Design
 
 Post-layout timing analysis was performed under typical and worst-case process–voltage–temperature (PVT) corners.
 
-![Fig. 6 : qor summary](images/25-10-10/image_5.png)
+![Fig. 6 : qor summary](images/2025-10-10/image_5.png)
 
 Fig. 6 : qor summary
 
@@ -170,7 +179,7 @@ This result indicates successful timing closure with sufficient margin for 100 M
 
 ### 6.3 Constraint and Rule Verification
 
-![Fig. 7 : Constraint verification reports](images/25-10-10/image_6.png)
+![Fig. 7 : Constraint verification reports](images/2025-10-10/image_6.png)
 
 Fig. 7 : Constraint verification reports
 
@@ -186,7 +195,7 @@ The synthesized cell area was **1.44 × 10⁶ µm²**, and the post-layout area 
 
 ### 6.5 Power Analysis
 
-![Fig. 8 : Power BreakDown ](images/25-10-10/image_7.png)
+![Fig. 8 : Power BreakDown ](images/2025-10-10/image_7.png)
 
 Fig. 8 : Power BreakDown 
 

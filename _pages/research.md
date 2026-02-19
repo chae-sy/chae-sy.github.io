@@ -19,7 +19,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/
 
 ![LLM on FPGA](/images/llm_on_fpga.jpg)
 
-- Implemented Multi-Query Attention and W4A4 for FPGA LLM deployment; designed RTL in SystemVerilog for Transformer blocks; conducted synthesis and bitstream generation for FPGA implementation in Xilinx Vivado. Resulted in publication [C2] [link]
+- Implemented Multi-Query Attention and W4A4 for FPGA LLM deployment; designed RTL in SystemVerilog for Transformer blocks; conducted synthesis and bitstream generation for FPGA implementation in Xilinx Vivado. [link](https://chae-sy.github.io/LLM-on-FPGA/)
 
 ---
 
@@ -27,23 +27,25 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/
 
 ![quantized BC-ResNet models for keyword spotting and speaker verification](/images/bc_resnet.jpg)
 
-- Fine-tuned CNN keyword-spotting (KWS) models for hardware-friendly deployment using framewise incremental computation scheme; designed Verilog RTL blocks for efficient CNN operations. Participated in the Multi-Project Wafer (MPW) program for undergraduate and graduate students organized by IDEC and contributed to the tape-out of KWS ASIC tape-out. [link]
+- Fine-tuned CNN keyword-spotting (KWS) models for hardware-friendly deployment using framewise incremental computation scheme; designed Verilog RTL blocks for efficient CNN operations. Participated in the Multi-Project Wafer (MPW) program for undergraduate and graduate students organized by IDEC and contributed to the tape-out of KWS ASIC tape-out. [link](https://chae-sy.github.io/CNN-Tape-Out/)
 
-- Quantized BC-ResNet for keyword spotting (KWS) and speaker-verification(SV) embeddings; implemented PTQ/QAT (CLE, bias correction, AWQ, SmoothQuant, PACT). Participated in the Multi-Project Wafer (MPW) program organized by IDEC and contributed to KWS and SV ASIC tape-out. [link]
+- Quantized BC-ResNet for keyword spotting (KWS) and speaker-verification(SV) embeddings; implemented PTQ/QAT (CLE, bias correction, AWQ, SmoothQuant, PACT). Participated in the Multi-Project Wafer (MPW) program organized by IDEC and contributed to KWS and SV ASIC tape-out. [link](https://chae-sy.github.io/Quantized-BC-ResNet-Tape-Out/)
 
 ---
 
 ## Intelligent Sensing and Fault Diagnosis
 
+[link](https://chae-sy.github.io/Smart-Factory/)
 - Developed a 1D-CNN LSTM–based fault diagnosis system for rotating machinery using vibration and acoustic signals, achieving up to 97.4% classification accuracy across multiple fault conditions.
 
-- Utilized time-series feature extraction and sequence learning techniques to detect mechanical anomalies such as mechanical looseness, improving predictive maintenance capability. Resulted in [C1] and [P1-2].
+- Utilized time-series feature extraction and sequence learning techniques to detect mechanical anomalies such as mechanical looseness, improving predictive maintenance capability.
 
 ---
 
 ## Hardware Accelerator Project
 
 ![Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm](/images/subpixel_render.jpg)
+[link](https://chae-sy.github.io/Capstone-Design/)
 
 - Led a team of four undergraduates to implement and train a CNN-based subpixel rendering algorithm, optimizing network parameters using Incremental Network Quantization scheme.
 
