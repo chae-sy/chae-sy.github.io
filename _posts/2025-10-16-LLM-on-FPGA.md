@@ -1,10 +1,14 @@
+---
+title: "[ISOCC 2025]  LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and Its Efficient Hardware Architecture "
+date: 2025-10-16
+---
 Delighted to share that my research has been accepted to an oral session of ISOCC 2025 – 22th International SoC Design Conference! (presented on October 16, 2025)
 
 you can find the whole paper : LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and its Efficient Hardware Architecture [link](https://ieeexplore.ieee.org/abstract/document/11329964)
 
 The paper got recognized "For enabling analytical evaluation of various quantization schemes (SmoothQuant and QLoRA) and implementing on-chip caches of large language models without siginificant accuracy drop by using Multi-Query Attention and efficient RTL design."
 
-# LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and Its Efficient Hardware Architecture
+## LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and Its Efficient Hardware Architecture
 
 **Authors:**
 

@@ -1,5 +1,7 @@
- [project] Senior Year Capstone Design : Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm
-
+---
+title: "[project] Senior Year Capstone Design : Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm"
+date: 2025-06-20
+---
 
 This project was carried out as a Senior Capstone Design from March to June 2025.
 It received the Engineering Innovation Prize at the SKKU Senior Capstone Design Contest 2025.

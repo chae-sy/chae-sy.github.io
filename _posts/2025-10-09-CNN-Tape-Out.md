@@ -1,5 +1,8 @@
 
-Design and Implementation of an End-to-End Keyword Spotting System Based on CNN Neural Networks
+---
+title: "[tape-out project] CNN-based keyword spotting system with framewise incremental computation"
+date: 2025-10-09
+---
 
 **Research Period:** September 2, 2024 – December 20, 2024
 
@@ -7,7 +10,6 @@ Design and Implementation of an End-to-End Keyword Spotting System Based on CNN 
 
 **Affiliation:** Sungkyunkwan University
 
----
 
 ## 1. Paper Review and Algorithm Design
 

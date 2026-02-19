@@ -1,7 +1,6 @@
 ---
-title: "Quantized BC-ResNet Tape Out"
+title: "[tape-out project] quantized BC-ResNet models for keyword spotting and speaker verification"
 date: 2025-10-10
-mathjax: true
 ---
 
 ### 1. Introduction

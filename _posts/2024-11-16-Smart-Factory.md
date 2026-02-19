@@ -1,6 +1,7 @@
-[Project] Smart Factory Capstone Design : Rotor Fault Diagnosis Method Based on 1D-CNN LSTM
-
-
+---
+title: "[Project] Smart Factory Capstone Design : Rotor Fault Diagnosis Method Based on 1D-CNN LSTM"
+date: 2024-11-16
+---
 
 # Anomaly Detection Based on 1D-CNN LSTM for Rotating Machines
 
