@@ -1,5 +1,5 @@
 
-# Design and Implementation of an End-to-End Keyword Spotting System Based on CNN Neural Networks
+Design and Implementation of an End-to-End Keyword Spotting System Based on CNN Neural Networks
 
 **Research Period:** September 2, 2024 – December 20, 2024
 
@@ -17,13 +17,13 @@ To investigate keyword-spotting (KWS) techniques, several papers were reviewed. 
 
 The paper also described an **integer-quantized approach** to reduce power consumption and a **custom processing-element (PE) architecture** with a dedicated **memory structure**, optimized for low-power hardware. The study further minimized on-chip memory area by reducing SRAM size, which inspired the memory design adopted in this work.
 
-![image.png](images/2025-10-09/image.png)
+![image.png](/images/2025-10-09/image.png)
 
 However, the reference architecture could detect only one or two keywords, which is insufficient for large-scale KWS deployment. Therefore, in this research, the quantized bit-width was expanded from **1-bit to 8-bit**, enabling the detection of **five distinct keywords**. The speech signal was sampled every **32 ms**, and the **feature-extraction circuit** transformed the incoming waveform into **10 frequency bands** using FFT before applying CNN operations.
 
 The **Depthwise Separable Convolutional Neural Network (DSCNN)** architecture was adopted to reduce computational cost while maintaining accuracy. Although it increases the number of stages by decomposing conventional convolution into **depthwise and pointwise** operations, it significantly lowers overall computation and memory usage to approximately **one-seventh** of a standard CNN. Python-based training confirmed about **90% recognition accuracy** under this structure.
 
-![image.png](images/2025-10-09/image%201.png)
+![image.png](/images/2025-10-09/image%201.png)
 
 ### (2) BC-ResNet Model Design
 
@@ -46,7 +46,7 @@ The architecture included convolutional, batch-normalization, ReLU6, dropout, an
 
 ### (1) DSCNN RTL Implementation
 
-![image.png](images/2025-10-09/image%202.png)
+![image.png](/images/2025-10-09/image%202.png)
 
 For hardware realization of keyword spotting, the system was designed at **Register-Transfer Level (RTL)** using **Verilog/SystemVerilog**. The architecture comprised:
 
@@ -71,7 +71,7 @@ Latency analysis showed approximately **560 clock cycles** total (182 + 24 + 258
 
 ### (2) BC-ResNet RTL Implementation
 
-![image.png](images/2025-10-09/image%203.png)
+![image.png](/images/2025-10-09/image%203.png)
 
 A more advanced circuit was designed to execute **BC-ResNet inference** in real time. The top-level architecture included:
 
@@ -85,11 +85,11 @@ Feature and weight data were stored in **FSRAM** and **WSRAM**, respectively, wi
 
 Control was handled by a **top controller**, a **layer-state controller**, and **23 layer controllers** that managed each computational stage.
 
-![image.png](images/2025-10-09/image%204.png)
+![image.png](/images/2025-10-09/image%204.png)
 
-![image.png](images/2025-10-09/image%205.png)
+![image.png](/images/2025-10-09/image%205.png)
 
-![image.png](images/2025-10-09/image%206.png)
+![image.png](/images/2025-10-09/image%206.png)
 
 A detailed **state-machine design** ensured correct sequencing of weight loading, feature buffering, convolution, normalization, and activation per layer.
 
@@ -103,9 +103,9 @@ After RTL verification, the design was synthesized using **Synopsys Design Compi
 
 During synthesis, non-synthesizable coding patterns (e.g., mixing blocking and non-blocking assignments, reserved identifiers, multi-signal resets) were corrected to ensure structural logic generation.
 
-![image.png](images/2025-10-09/image%207.png)
+![image.png](/images/2025-10-09/image%207.png)
 
-![image.png](images/2025-10-09/image%208.png)
+![image.png](/images/2025-10-09/image%208.png)
 
 A **memory wrapper** cell was designed for each SRAM instance to:
 
@@ -114,9 +114,9 @@ A **memory wrapper** cell was designed for each SRAM instance to:
 
 Post-synthesis, the **top-level hierarchy** was analyzed for **power** and **timing**, confirming functionality within expected constraints.
 
-![image.png](images/2025-10-09/image%209.png)
+![image.png](/images/2025-10-09/image%209.png)
 
-![image.png](images/2025-10-09/image%2010.png)
+![image.png](/images/2025-10-09/image%2010.png)
 
 ---
 
@@ -139,7 +139,7 @@ The flow consisted of **placement**, **clock-tree synthesis (CTS)**, and **routi
 - Created a **mesh-style power grid** across the layout.
 - Performed **Design Rule Check (DRC)** and **Layout vs Schematic (LVS)** verification.
 
-![image.png](images/2025-10-09/image%2011.png)
+![image.png](/images/2025-10-09/image%2011.png)
 
 - Added **I/O pad configurations** and finalized **GDSII** files for tape-out submission.
 

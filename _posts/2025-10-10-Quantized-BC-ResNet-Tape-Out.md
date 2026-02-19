@@ -1,4 +1,8 @@
-
+---
+title: "Quantized BC-ResNet Tape Out"
+date: 2025-10-10
+mathjax: true
+---
 
 ### 1. Introduction
 
@@ -20,7 +24,7 @@ Unlike prior works, our work introduces a fully digitized computation and model 
 
 ### 3. System Overview
 
-![Fig. 1 : Overall System Pipeline](images/2025-10-10/image.png)
+![Fig. 1 : Overall System Pipeline](/images/2025-10-10/image.png)
 
 Fig. 1 : Overall System Pipeline
 
@@ -36,7 +40,7 @@ In this project, the **Neural Engine (**highlighted in the red box of Fig. 1) wa
 
 ### 4. Model Design
 
-![Fig. 2 : Model Design ](images/2025-10-10/image_1.png)
+![Fig. 2 : Model Design ](/images/2025-10-10/image_1.png)
 
 Fig. 2 : Model Design 
 
@@ -85,7 +89,7 @@ where $\mathcal{L}_{kws}$ and $\mathcal{L}_{sv}$ were computed using $\mathrm{AA
 
 ### 5. Hardware Design
 
-![Fig. 3 : Hardware Architecture](images/2025-10-10/image_2.png)
+![Fig. 3 : Hardware Architecture](/images/2025-10-10/image_2.png)
 
 Fig. 3 : Hardware Architecture
 
@@ -147,11 +151,11 @@ The quantized neural-network accelerator was implemented using the **Samsung 28 
 
 ### 6.1 Layout Overview
 
-![Fig 4. Schematic View of Synthesized Design ](images/2025-10-10/image_3.png)
+![Fig 4. Schematic View of Synthesized Design ](/images/2025-10-10/image_3.png)
 
 Fig 4. Schematic View of Synthesized Design 
 
-![Fig 5.  Layout view of the Design ](images/2025-10-10/image_4.png)
+![Fig 5.  Layout view of the Design ](/images/2025-10-10/image_4.png)
 
 Fig 5.  Layout view of the Design 
 
@@ -163,7 +167,7 @@ Fig 5.  Layout view of the Design
 
 Post-layout timing analysis was performed under typical and worst-case process–voltage–temperature (PVT) corners.
 
-![Fig. 6 : qor summary](images/2025-10-10/image_5.png)
+![Fig. 6 : qor summary](/images/2025-10-10/image_5.png)
 
 Fig. 6 : qor summary
 
@@ -179,7 +183,7 @@ This result indicates successful timing closure with sufficient margin for 100 M
 
 ### 6.3 Constraint and Rule Verification
 
-![Fig. 7 : Constraint verification reports](images/2025-10-10/image_6.png)
+![Fig. 7 : Constraint verification reports](/images/2025-10-10/image_6.png)
 
 Fig. 7 : Constraint verification reports
 
@@ -195,7 +199,7 @@ The synthesized cell area was **1.44 × 10⁶ µm²**, and the post-layout area 
 
 ### 6.5 Power Analysis
 
-![Fig. 8 : Power BreakDown ](images/2025-10-10/image_7.png)
+![Fig. 8 : Power BreakDown ](/images/2025-10-10/image_7.png)
 
 Fig. 8 : Power BreakDown 
 

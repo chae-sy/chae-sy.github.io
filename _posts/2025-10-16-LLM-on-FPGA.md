@@ -1,7 +1,6 @@
-
 Delighted to share that my research has been accepted to an oral session of ISOCC 2025 – 22th International SoC Design Conference! (presented on October 16, 2025)
 
-you can find the whole paper : [LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and its Efficient Hardware Architecture | IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11329964)
+you can find the whole paper : LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and its Efficient Hardware Architecture [link](https://ieeexplore.ieee.org/abstract/document/11329964)
 
 The paper got recognized "For enabling analytical evaluation of various quantization schemes (SmoothQuant and QLoRA) and implementing on-chip caches of large language models without siginificant accuracy drop by using Multi-Query Attention and efficient RTL design."
 
@@ -66,7 +65,7 @@ However, none jointly exploit **sub-8-bit quantization** and **KV caching** for 
 
 ## 3. Model Compression Methodology
 
-![image.png](images/2025-10-16/image.png)
+![image.png](/images/2025-10-16/image.png)
 
 ### 3.1 SmoothQuant for Range Equalization
 
@@ -106,9 +105,9 @@ In our experiments:
 
 The hardware pipeline consists of **pre-layernorm**, **attention**, and **feed-forward network (FFN)** units
 
-![image.png](images/2025-10-16/image%201.png)
+![image.png](/images/2025-10-16/image%201.png)
 
-![image.png](images/2025-10-16/image%202.png)
+![image.png](/images/2025-10-16/image%202.png)
 
 ### 4.1 Pre-LayerNorm
 
