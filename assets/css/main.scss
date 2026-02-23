@@ -102,34 +102,86 @@
   opacity: 0.85;
 }
 
+/* ================================
+   Layout: wider content + cleaner sidebar
+   (AcademicPages / Minimal Mistakes)
+   ================================ */
 
-/* ============================= */
-/* Publications compact spacing */
-/* ============================= */
-
-/* publication 카드 내부만 정확히 타겟팅 */
-.archive .archive__item-body h2.archive__item-title {
-  margin: 0 0 2px 0 !important;
-  line-height: 1.25;
+/* 1) 전체 컨텐츠 최대 폭 확장 */
+.page__inner-wrap,
+.archive,
+.initial-content,
+.page__content {
+  max-width: 1180px; /* 필요하면 1100~1320 사이로 조절 */
 }
 
-.archive .archive__item-body .pub-venue {
-  margin: 0 0 2px 0 !important;
-  line-height: 1.25;
+/* 2) 사이드바/본문 가로 비율 조정 */
+@media (min-width: 64em) {
+  .sidebar {
+    width: 280px;         /* 왼쪽 폭: 더 깔끔한 비율 */
+    padding-right: 22px;
+  }
+  .page__content,
+  .archive {
+    width: calc(100% - 280px);
+  }
 }
 
-/* 핵심: 기본 테마가 먹이는 p margin 제거 */
-.archive .archive__item-body p {
-  margin-bottom: 2px !important;
-}
-
-/* 링크 줄 */
-.archive .archive__item-body .pub-links {
-  margin-top: 0px !important;
-  margin-bottom: 8px !important;
-}
-
-/* 카드 사이 간격 */
-.archive .archive__item {
+/* 3) 왼쪽 author profile(바이오) 정돈 */
+.author__avatar {
   margin-bottom: 10px;
+}
+.author__avatar img {
+  border-radius: 14px;
+}
+
+.author__content {
+  margin-bottom: 10px;
+}
+.author__name {
+  font-size: 1.15rem;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.author__bio {
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  opacity: 0.92;
+}
+
+/* 4) 사이드바의 메타(위치/학교/이메일 등) 간격 줄이고 정렬 */
+.author__urls {
+  margin-top: 10px;
+}
+.author__urls li {
+  margin-bottom: 6px;
+}
+.author__urls li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.2;
+}
+
+/* 아이콘/텍스트가 줄 바뀔 때도 깔끔하게 */
+.author__urls li a .label {
+  white-space: normal;
+}
+
+/* 5) 본문 기본 줄길이 조금 늘리기 (읽기 좋게) */
+.page__content p,
+.page__content li {
+  line-height: 1.65;
+}
+
+/* 6) 섹션 타이틀 여백 정리 (너 페이지처럼 헤더 많을 때 깔끔) */
+.page__content h2 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+.page__content h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
 }
