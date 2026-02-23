@@ -5,6 +5,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+robots: "index, follow"
+sitemap: true
 ---
 
 👋 I am a prospective PhD student working on efficient and reliable deep learning systems.  
