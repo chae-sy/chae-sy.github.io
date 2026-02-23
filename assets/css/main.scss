@@ -41,3 +41,63 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Blog list: card components ===== */
+.post-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 14px 0;
+  background: var(--global-bg-color);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* 제목: 조금 더 붙이고 줄간격 */
+.post-card .archive__item-title {
+  margin: 0 0 6px 0;
+  line-height: 1.25;
+}
+
+/* excerpt(미리보기) 작게 + 제목 바로 아래 */
+.post-card .archive__item-excerpt {
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  opacity: 0.95;
+}
+
+/* Published 줄(메타) 작게 */
+.post-card .page__meta,
+.post-card .archive__item-date,
+.post-card .archive__item-meta,
+.post-card time {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+/* 썸네일: 카드 상단에 넣고 깔끔하게 */
+.post-card__thumb {
+  margin: 0 0 12px 0;
+}
+.post-card__thumb img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* 읽기 시간 같은 meta가 제목 위에 있으면 아래로 내려오게 */
+.post-card .read-time {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+/* 카드 안 요소들의 과한 아래 여백 제거 */
+.post-card p { margin-bottom: 0.9em; }
+.post-card p:last-child { margin-bottom: 0; }
+
+.post-card__meta {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
