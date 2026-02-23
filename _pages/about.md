@@ -17,6 +17,9 @@ My research focuses on making large-scale AI models more memory-efficient, deplo
 - Hardware-aware algorithm design (FPGA / ASIC accelerators)
 - Efficient dataflow and PIM architectures
 
+
+[📄 Download CV (as of Jan. 2026)](/files/cv_seoyoon_chae_jan.pdf)
+
 ---
 
 ## 🎯 Research Vision
