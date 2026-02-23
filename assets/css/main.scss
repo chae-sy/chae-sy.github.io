@@ -103,3 +103,129 @@ html, body {
     padding-right: 1.25rem;
   }
 }
+
+
+/* ===== Clean layout fixes (sidebar / spacing / nav) ===== */
+
+/* 1) Sidebar: reduce cramped feeling */
+.sidebar {
+  p, li {
+    line-height: 1.6;
+  }
+
+  .author__bio {
+    line-height: 1.55;
+  }
+
+  .author__content {
+    line-height: 1.2; /* name/pronouns block */
+  }
+
+  .author__urls a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .author__name {
+    margin-bottom: 6px;
+  }
+
+  .author__bio {
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}
+
+/* 조금 더 여유: 사이드바 아이콘 링크 간격 */
+.author__urls li {
+  margin-bottom: 6px;
+}
+
+/* 2) Page content: consistent section spacing */
+.page__content {
+  p { margin: 0 0 0.9em; }
+  ul, ol { margin: 0.4em 0 1.1em; }
+  li { margin: 0.25em 0; }
+
+  h1 { margin: 0.2em 0 0.5em; }
+  h2 { margin: 1.6em 0 0.6em; }
+  h3 { margin: 1.2em 0 0.5em; }
+  h4 { margin: 1.0em 0 0.4em; }
+
+  hr { margin: 2.0em 0; }
+}
+
+/* 3) Masthead nav: make it lighter / less “thick” */
+.masthead {
+  .masthead__inner-wrap {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.masthead__menu-item a {
+  font-weight: 500;      /* was heavier */
+  font-size: 0.95rem;    /* slightly smaller */
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+/* Optional: reduce overall header height on large screens */
+@media (min-width: 1024px) {
+  .masthead {
+    min-height: 56px;
+  }
+}
+
+.sidebar p, .sidebar li { font-size: 0.95rem; }
+
+
+/* ===== Publications: card-style items ===== */
+.pub-card {
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 14px 0;
+  background: var(--global-bg-color);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* 제목(링크) */
+.pub-card .archive__item-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+/* Published in ... / venue */
+.pub-card .archive__item-excerpt,
+.pub-card .archive__item-teaser,
+.pub-card p {
+  margin-bottom: 10px;
+}
+
+/* 링크 줄(doi, download, github 등)이 너무 길면 줄바꿈 */
+.pub-card a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* “Download Paper” 같은 링크들을 버튼처럼 */
+.pub-card a[href*="/files/"],
+.pub-card a[href*="doi.org"],
+.pub-card a[href*="github.com"] {
+  display: inline-block;
+  margin: 6px 10px 0 0;
+  padding: 6px 10px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.pub-card a[href*="/files/"]:hover,
+.pub-card a[href*="doi.org"]:hover,
+.pub-card a[href*="github.com"]:hover {
+  text-decoration: none;
+  filter: brightness(0.98);
+}
