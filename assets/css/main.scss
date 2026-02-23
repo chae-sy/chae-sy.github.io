@@ -313,3 +313,22 @@ html, body {
     width: 260px;
   }
 }
+
+/* ===== Hard fix: sidebar should never overlap main content ===== */
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 280px;       /* sidebar actual width */
+    max-width: 280px;
+  }
+
+  #main {
+    margin-left: 320px; /* sidebar + gap */
+  }
+
+  /* some pages use these wrappers */
+  .archive,
+  .page {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

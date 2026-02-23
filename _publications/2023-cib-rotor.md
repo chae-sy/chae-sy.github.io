@@ -8,5 +8,3 @@ venue: "2023 O2O Integrated Conference of the Institute of Internet, Broadcastin
 paperurl: /files/2023-cib-rotor.pdf
 authors: "Daehee Lee, Sewon Kim, Jungmin Yoo, Yewon Jeong, Seoyoon Chae, Chaegyu Lee, Hyunseung Choo, Jongpil Jeong"
 ---
-
-https://factory.skku.edu/factory/research.do?mode=view&articleNo=163355&article.offset=175&articleLimit=25

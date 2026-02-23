@@ -56,4 +56,4 @@ Mar. 2022 – Dec. 2023
 ## 🗨️ Proficiency
 
 - TOEFL (obtained Mar. 2025): 103 (Reading: 28, Listening: 28, Speaking: 23, Writing: 24)
-- GRE (obtained Sep. 2025): Verbal (150, 39%), Quantitative (168, 81%), Writing (3.5, 43%)
+- GRE (obtained Nov. 2025): Verbal (150, 39%), Quantitative (168, 81%), Writing (3.5, 43%)
