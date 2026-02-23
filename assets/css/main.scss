@@ -103,27 +103,33 @@
 }
 
 
-/* ===== Publications spacing fix ===== */
+/* ============================= */
+/* Publications compact spacing */
+/* ============================= */
 
-/* 제목 아래 간격 줄이기 */
-.archive__item-title {
-  margin-bottom: 4px !important;
+/* publication 카드 내부만 정확히 타겟팅 */
+.archive .archive__item-body h2.archive__item-title {
+  margin: 0 0 2px 0 !important;
+  line-height: 1.25;
 }
 
-/* "Published in ~" 줄 간격 줄이기 */
-.pub-venue {
+.archive .archive__item-body .pub-venue {
+  margin: 0 0 2px 0 !important;
+  line-height: 1.25;
+}
+
+/* 핵심: 기본 테마가 먹이는 p margin 제거 */
+.archive .archive__item-body p {
+  margin-bottom: 2px !important;
+}
+
+/* 링크 줄 */
+.archive .archive__item-body .pub-links {
   margin-top: 0px !important;
-  margin-bottom: 4px !important;
-  line-height: 1.3;
+  margin-bottom: 8px !important;
 }
 
-/* DOI / Download / Code 줄 간격 */
-.pub-links {
-  margin-top: 0px !important;
-  margin-bottom: 6px !important;
-}
-
-/* 논문 카드 전체 간격도 살짝 압축 */
-.archive__item {
-  margin-bottom: 12px;
+/* 카드 사이 간격 */
+.archive .archive__item {
+  margin-bottom: 10px;
 }
