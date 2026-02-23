@@ -106,29 +106,6 @@
    Sidebar + Page content: 전체 폭 넓히기 + author profile 정돈
    ================================ */
 
-/* 전체 컨텐츠 폭 확대 */
-.page__inner-wrap,
-.masthead__inner-wrap,
-.archive,
-.initial-content,
-.page__content {
-  max-width: 1180px;
-}
-
-/* 데스크탑에서만: sidebar 고정폭 느낌 + 본문 넓히기
-   (기존 susy 그리드 유지하면서 margin으로만 조정 → 안 깨짐) */
-@media (min-width: 64em) {
-  .sidebar {
-    max-width: 280px;      /* width 말고 max-width로 */
-  }
-
-  /* 본문이 sidebar를 침범하지 않도록 왼쪽 여백 확보 */
-  .page__inner-wrap .archive,
-  .page__inner-wrap .page__content,
-  .page__inner-wrap .initial-content {
-    padding-left: 30px;
-  }
-}
 
 /* ===== Sidebar author profile 정돈 (겹침 방지 버전) ===== */
 .sidebar .author__avatar img {
@@ -141,12 +118,6 @@
   line-height: 1.25;
 }
 
-.sidebar .author__name {
-  margin: 0 0 6px 0;
-  font-size: 1.15rem;
-  line-height: 1.2;
-}
-
 .sidebar .author__bio {
   margin: 6px 0 12px 0;
   font-size: 0.92rem;
@@ -154,18 +125,3 @@
   opacity: 0.92;
 }
 
-/* 링크 리스트 간격 */
-.sidebar .author__urls li {
-  margin-bottom: 6px;
-  white-space: normal;
-}
-
-.sidebar .author__urls a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  line-height: 1.2;
-  padding: 0;
-  margin: 0;
-  font-size: 0.92rem;
-}
