@@ -125,3 +125,25 @@
   opacity: 0.92;
 }
 
+/* DOI / Code / Download 링크 */
+.pub-links a {
+  padding: 2px 6px;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.pub-links a:hover {
+  background: rgba(42,127,255,0.12);
+  text-decoration: none;
+}
+
+/* Author profile의 URL 링크들 */
+
+.author__urls a {
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.author__urls a:hover {
+  transform: translateX(3px);
+  opacity: 1;
+}
