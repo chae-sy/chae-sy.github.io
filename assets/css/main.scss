@@ -183,27 +183,45 @@ html, body {
 /* ===== Publications: card-style items ===== */
 .pub-card {
   border: 1px solid var(--global-border-color);
-  border-radius: 14px;
-  padding: 16px 18px;
-  margin: 14px 0;
+  border-radius: 12px;
+  padding: 12px 14px; 
+  margin: 10px 0;
   background: var(--global-bg-color);
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
 /* 제목(링크) */
 .pub-card .archive__item-title {
-  margin-top: 0;
-  margin-bottom: 8px;
-  line-height: 1.25;
+  margin: 0 0 4px 0;   /* 기존 8px -> 4px */
+  line-height: 1.2;
 }
 
 /* Published in ... / venue */
 .pub-card .archive__item-excerpt,
 .pub-card .archive__item-teaser,
-.pub-card p {
-  margin-bottom: 10px;
+.pub-card p { margin: 0 0 6px 0; }
+.pub-card p:last-child { margin-bottom: 0; }
+
+.pub-card .pub-venue {
+  margin: 0 0 6px 0;      /* 제목 바로 아래 */
+  font-size: 0.88rem;
+  opacity: 0.85;
+}
+.pub-card .pub-links {
+  margin: 0;              /* 아래 여백 제거 */
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
+.pub-card .pub-links a {
+  display: inline-block;
+  padding: 4px 9px;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;   /* pill */
+  font-size: 0.85rem;
+  text-decoration: none;
+}
 /* 링크 줄(doi, download, github 등)이 너무 길면 줄바꿈 */
 .pub-card a {
   overflow-wrap: anywhere;
@@ -284,35 +302,7 @@ html, body {
 .post-card p { margin-bottom: 0.9em; }
 .post-card p:last-child { margin-bottom: 0; }
 
-/* ===== Fix: prevent sidebar overlap with main content ===== */
 
-/* Desktop layout: reserve space for the left sidebar */
-@media (min-width: 1024px) {
-  /* main content wrapper */
-  .initial-content,
-  .page__inner-wrap,
-  .archive__wrapper,
-  .page__content {
-    box-sizing: border-box;
-  }
-
-  /* push the whole main area to the right by sidebar width */
-  .archive,
-  .page {
-    padding-left: 1.5rem; /* small breathing room */
-  }
-
-  /* The key: add left margin to main content area */
-  .archive__wrapper,
-  .page__inner-wrap {
-    margin-left: 300px; /* reserve sidebar area */
-  }
-
-  /* keep sidebar on top and fixed as intended */
-  .sidebar {
-    width: 260px;
-  }
-}
 
 /* ===== Hard fix: sidebar should never overlap main content ===== */
 @media (min-width: 1024px) {
@@ -331,4 +321,9 @@ html, body {
     margin-left: 0;
     padding-left: 0;
   }
+}
+
+
+@media (min-width: 1024px) {
+  #main { width: calc(100% - 320px); }
 }

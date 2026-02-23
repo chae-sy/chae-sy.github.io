@@ -9,5 +9,6 @@ paperurl: /files/2025-isocc-llm-fpga.pdf
 authors: "Seoyoon Chae, Taewook Kang"
 note: "Acceptance rate: ~40%"
 doi: "10.1109/ISOCC66390.2025.11329964"
+githuburl: https://github.com/chae-sy/squeezing_lm
 ---
 
