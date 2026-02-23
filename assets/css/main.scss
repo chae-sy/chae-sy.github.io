@@ -2,269 +2,42 @@
 ---
 
 /*
- * main.scss
- * - Imports Minimal Mistakes / AcademicPages styles
- * - Adds custom overrides at the bottom
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-  "vendor/breakpoint/breakpoint",
+    "vendor/breakpoint/breakpoint",
 
-  "themes",
-  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-  "include/mixins",
-  "vendor/susy/susy",
+    "include/mixins",
+    "vendor/susy/susy",
 
-  "layout/reset",
-  "layout/base",
+    "layout/reset",
+    "layout/base",
 
-  "include/utilities",
-  "layout/tables",
-  "layout/buttons",
-  "layout/notices",
-  "layout/masthead",
-  "layout/navigation",
-  "layout/footer",
-  "syntax",
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
 
-  "layout/forms",
+    "layout/forms",
 
-  "layout/page",
-  "layout/archive",
-  "layout/sidebar",
-  "layout/json_cv",
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
 
-  "vendor/font-awesome/fontawesome",
-  "vendor/font-awesome/solid",
-  "vendor/font-awesome/brands"
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
 ;
-
-/* =========================================================
-   Global typography
-   ========================================================= */
-
-html, body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-}
-
-/* Slightly tighter reading width */
-.page__inner-wrap {
-  max-width: 900px;
-}
-
-/* Page typography */
-.page__content {
-  p { margin: 0 0 0.9em; }
-  ul, ol { margin: 0.4em 0 1.1em; }
-  li { margin: 0.25em 0; }
-
-  h1 { margin: 0.2em 0 0.5em; }
-  h2 { margin: 1.4em 0 0.6em; }
-  h3 { margin: 1.1em 0 0.5em; }
-  h4 { margin: 1.0em 0 0.4em; }
-
-  hr { margin: 2.0em 0; }
-}
-
-.page__content p,
-.page__content li {
-  line-height: 1.65;
-  font-size: 1.02rem;
-}
-
-/* Masthead lighter */
-.masthead {
-  .masthead__inner-wrap {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-.masthead__menu-item a {
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding-top: 0.35rem;
-  padding-bottom: 0.35rem;
-}
-
-@media (min-width: 1024px) {
-  .masthead { min-height: 56px; }
-}
-
-/* =========================================================
-   Sidebar cosmetics
-   ========================================================= */
-
-.sidebar {
-  p, li { line-height: 1.6; font-size: 0.95rem; }
-
-  .author__bio { line-height: 1.55; margin-top: 8px; margin-bottom: 16px; }
-  .author__content { line-height: 1.2; }
-  .author__name { margin-bottom: 6px; }
-  .author__urls a { padding-top: 3px; padding-bottom: 3px; }
-}
-
-.author__urls li { margin-bottom: 6px; }
-
-.author__avatar img {
-  max-width: 200px;
-  border-radius: 14px; /* rounded square */
-}
-
-/* Add a bit more top padding to sidebar under masthead */
-@media (min-width: 1024px) {
-  .sidebar {
-    padding-top: calc(#{$masthead-height} + 12px);
-  }
-}
-
-/* =========================================================
-   CRITICAL: Prevent sidebar overlap (robust)
-   ========================================================= */
-/*
-  Why this works:
-  - On desktop, sidebar becomes fixed.
-  - We reserve a left "gutter" for the sidebar by shifting ALL main content wrappers.
-  - We set width: calc(100% - gutter) so content can't slide underneath.
-*/
-
-@media (min-width: 1024px) {
-  :root {
-    --sidebar-w: 280px;   /* actual sidebar width */
-    --sidebar-gap: 40px;  /* breathing room */
-    --sidebar-gutter: calc(var(--sidebar-w) + var(--sidebar-gap));
-  }
-
-  /* Ensure sidebar width is consistent */
-  .sidebar {
-    width: var(--sidebar-w);
-    max-width: var(--sidebar-w);
-  }
-
-  /* Shift the main container */
-  #main {
-    margin-left: var(--sidebar-gutter) !important;
-    width: calc(100% - var(--sidebar-gutter)) !important;
-  }
-
-  /* Some pages use additional wrappers that can ignore #main width */
-  .initial-content,
-  .archive,
-  .page,
-  .archive__wrapper,
-  .page__inner-wrap {
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-
-  /* Remove accidental extra paddings that push content weirdly */
-  .archive,
-  .page {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-
-  /* Keep content nicely aligned */
-  .page__inner-wrap,
-  .archive__wrapper {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-/* =========================================================
-   Publications: compact card components
-   ========================================================= */
-
-.pub-card {
-  border: 1px solid var(--global-border-color);
-  border-radius: 12px;
-  padding: 12px 14px;
-  margin: 10px 0;
-  background: var(--global-bg-color);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-}
-
-.pub-card .archive__item-title {
-  margin: 0 0 4px 0;
-  line-height: 1.2;
-}
-
-.pub-card .pub-venue {
-  margin: 0 0 6px 0;
-  font-size: 0.88rem;
-  opacity: 0.85;
-}
-
-.pub-card .pub-links {
-  margin: 0;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.pub-card .pub-links a {
-  display: inline-block;
-  padding: 4px 9px;
-  border: 1px solid var(--global-border-color);
-  border-radius: 999px;
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.pub-card a {
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
-/* Remove extra paragraph spacing inside pub cards */
-.pub-card p { margin: 0 0 6px 0; }
-.pub-card p:last-child { margin-bottom: 0; }
-
-/* =========================================================
-   Blog list: card components
-   ========================================================= */
-
-.post-card {
-  border: 1px solid var(--global-border-color);
-  border-radius: 14px;
-  padding: 14px 16px;
-  margin: 12px 0;
-  background: var(--global-bg-color);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-}
-
-.post-card .archive__item-title {
-  margin: 0 0 6px 0;
-  line-height: 1.25;
-}
-
-.post-card .archive__item-excerpt {
-  margin: 0 0 10px 0;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  opacity: 0.95;
-}
-
-.post-card .page__meta,
-.post-card .archive__item-date,
-.post-card .archive__item-meta,
-.post-card time {
-  font-size: 0.85rem;
-  opacity: 0.85;
-}
-
-.post-card__thumb {
-  margin: 0 0 12px 0;
-}
-.post-card__thumb img {
-  width: 100%;
-  max-height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
-  display: block;
-}
-
-.post-card p { margin-bottom: 0.9em; }
-.post-card p:last-child { margin-bottom: 0; }
