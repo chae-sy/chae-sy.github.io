@@ -147,3 +147,17 @@
   transform: translateX(3px);
   opacity: 1;
 }
+
+/* ===== Global link hover (clean academic style) ===== */
+
+a {
+  text-decoration: none;
+  transition: color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* 본문 링크 hover: 형광펜 대신 얇은 밑줄 강조 */
+.page__content a:hover,
+.archive a:hover {
+  color: #2a7fff;
+  box-shadow: inset 0 -2px 0 rgba(42,127,255,0.35);
+}
