@@ -1,6 +1,7 @@
 ---
 title: "[project] Senior Year Capstone Design : Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm"
 date: 2025-06-20
+teaser: /images/2025-06-20/image.png
 ---
 
 This project was carried out as a Senior Capstone Design from March to June 2025.

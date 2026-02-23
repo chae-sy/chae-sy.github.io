@@ -1,6 +1,7 @@
 ---
 title: "[ISOCC 2025]  LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and Its Efficient Hardware Architecture "
 date: 2025-10-16
+teaser: /images/2025-10-16/image.png
 ---
 Delighted to share that my research has been accepted to an oral session of ISOCC 2025 – 22th International SoC Design Conference! (presented on October 16, 2025)
 

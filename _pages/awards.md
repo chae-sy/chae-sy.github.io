@@ -4,7 +4,7 @@ permalink: /awards/
 author_profile: true
 ---
 
-## Awards and Scholarships
+## 🏅 Awards and Scholarships
 
 - Senior Capstone Design Contest - Engineering Innovation Prize  
   Jun. 2025

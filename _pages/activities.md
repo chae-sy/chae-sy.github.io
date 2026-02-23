@@ -4,13 +4,13 @@ permalink: /activities/
 author_profile: true
 ---
 
-## Teaching Experience
+## 👨‍🏫 Teaching Experience
 
 - Thermodynamics [ISS3317] (Teaching Assistant, Summer 2025)
 
 ---
 
-## Skills
+## 🧠 Skills
 
 ### Programming & ML
 CUDA (kernel optimization), C/C++, Python (PyTorch), LLVM
@@ -23,7 +23,7 @@ gem5, NVIDIA Nsight Compute, MATLAB
 
 ---
 
-## Workshops & Training
+## 💼 Workshops & Training
 
 ### IDEC Workshop – Synopsys IC Compiler II for Block-Level Auto Place & Route  
 Sep. 17–19, 2025
@@ -32,7 +32,7 @@ Hands-on training in ASIC backend design flow including floorplanning, placement
 
 ---
 
-## Extra-Curricular Experience
+## 🚌 Extra-Curricular Experience
 
 ### Teach for Korea  
 Feb. 2023 – Dec. 2024
@@ -53,7 +53,7 @@ Mar. 2022 – Dec. 2023
 
 ---
 
-## Proficiency
+## 🗨️ Proficiency
 
 - TOEFL (obtained Mar. 2025): 103 (Reading: 28, Listening: 28, Speaking: 23, Writing: 24)
 - GRE (obtained Sep. 2025): Verbal (150, 39%), Quantitative (168, 81%), Writing (3.5, 43%)

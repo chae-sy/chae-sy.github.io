@@ -1,6 +1,7 @@
 ---
 title: "[Project] Smart Factory Capstone Design : Rotor Fault Diagnosis Method Based on 1D-CNN LSTM"
 date: 2023-11-16
+teaser: /images/2023-11-16/image.png
 ---
 This paper presents a fault diagnosis method for rotating machinery using a 1D-CNN LSTM architecture. The proposed model effectively captures temporal and frequency-domain features from vibration data, achieving high diagnostic accuracies for various fault types. The study emphasizes the importance of early fault detection in manufacturing environments to prevent downtime and enhance efficiency.
 

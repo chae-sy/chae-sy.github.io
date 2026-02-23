@@ -7,7 +7,7 @@ My research includes KV-cache quantization and tile-level precision control for 
 
 I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/QAT quantization, Verilog RTL design, ASIC tape-out, and a 1D-CNN LSTM–based fault diagnosis system using vibration and acoustic signals.
 
-## Large Language Model Inference
+## 📦 Large Language Model Inference
 
 ### KV-cache quantization and GPU inference
 
@@ -23,7 +23,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/
 
 ---
 
-## Hardware-aware Deep Learning and ASIC Implementation
+## 📦 Hardware-aware Deep Learning and ASIC Implementation
 
 ![quantized BC-ResNet models for keyword spotting and speaker verification](/images/bc_resnet.jpg)
 
@@ -33,7 +33,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/
 
 ---
 
-## Intelligent Sensing and Fault Diagnosis
+## 📦 Intelligent Sensing and Fault Diagnosis
 
 [link](https://chae-sy.github.io/Smart-Factory/)
 - Developed a 1D-CNN LSTM–based fault diagnosis system for rotating machinery using vibration and acoustic signals, achieving up to 97.4% classification accuracy across multiple fault conditions.
@@ -42,7 +42,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, PTQ/
 
 ---
 
-## Hardware Accelerator Project
+## 📦 Hardware Accelerator Project
 
 ![Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm](/images/subpixel_render.jpg)
 [link](https://chae-sy.github.io/Capstone-Design/)

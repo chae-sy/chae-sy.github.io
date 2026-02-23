@@ -1,6 +1,7 @@
 ---
 title: "[tape-out project] quantized BC-ResNet models for keyword spotting and speaker verification"
 date: 2025-7-10
+teaser: /images/2025-07-10/image.png
 ---
 This post details the design and implementation of a quantized BC-ResNet-based neural network accelerator for keyword spotting (KWS) and speaker verification (SV), culminating in a successful ASIC tape-out using Samsung's 28 nm LPP process. The project demonstrates a hardware–software co-design approach, achieving low power consumption and high accuracy for edge audio intelligence applications.
 
