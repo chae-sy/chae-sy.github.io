@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /
 title: "Seoyoon Chae"
 author_profile: true
 sitemap: true
