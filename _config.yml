@@ -361,3 +361,4 @@ compress_html:
     envs: development
 
 environment: production
+permalink: /:categories/:title/
