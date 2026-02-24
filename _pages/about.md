@@ -1,11 +1,7 @@
 ---
-permalink: /
+permalink: /about/
 title: "Seoyoon Chae"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
-robots: "index, follow"
 sitemap: true
 ---
 
