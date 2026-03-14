@@ -5,7 +5,7 @@ author_profile: true
 sitemap: true
 ---
 
-👋 I am a prospective PhD student working on efficient and reliable deep learning systems.  
+Hello 👋 My name is Seoyoon Chae, and I am a prospective PhD student working on efficient and reliable deep learning systems.  
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
 🔎 **My current interests include:**
@@ -44,7 +44,7 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 ---
 
 ## 📰 News
-
+- Mar 2026 - I've accepted at Rutgers University for PhD studies in Electrical and Computer Engineering.
 - Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC). 
 - Jun 2025 — I've attended the VLSI Symposium 2025.
 - Mar 2025 — I've awarded the Extra-Curricular Challenge Scholarship.
@@ -53,15 +53,15 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 
 ## 🎓 Education
 
-**[Your University Name]**  
-PhD in [Your Department] (Year – Present)
+**Rutgers University**  
+Ph.D. in Electrical and Computer Engineering (Sep. 2026 – Present)
 
 **Sungkyunkwan University**  
-B.S. in Electronic and Electrical Engineering (2022 - 2026)
+B.S. in Electronic and Electrical Engineering (Feb. 2022 - Aug. 2026)
 
 ---
 
 ## 📬 Contact
 
-✉️ Email: sychaeee@g.skku.edu  
-💻 GitHub: https://github.com/chae-sy
+✉️ Email: [sychaeee@g.skku.edu](mailto:sychaeee@g.skku.edu)  
+💻 GitHub: [https://github.com/chae-sy](https://github.com/chae-sy)
