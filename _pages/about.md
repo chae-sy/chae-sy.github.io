@@ -37,9 +37,9 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 - Eviction of KV-Cache based on geometric features for reasoning tasks  
 
 ### Hardware-Aware Deep Learning
-- FPGA-based LLM accelerators: Network Quantization and Verilog Implementation for on-chip inference
+- FPGA-based LLM accelerators: Network Quantization and Verilog Implementation
 - RTL Implementation and Verification, Synthesis and Place-and-Route for tape-out of CNN accelerators 
-- Design of DRAM-based PIM simulator for efficient and dynamic-precision LLM inference 
+- Design of DRAM-based PIM simulator for dynamic-precision LLM inference 
 
 ---
 
