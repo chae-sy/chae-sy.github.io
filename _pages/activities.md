@@ -28,7 +28,7 @@ gem5, NVIDIA Nsight Compute, MATLAB
 ### IDEC Workshop – Synopsys IC Compiler II for Block-Level Auto Place & Route  
 Sep. 17–19, 2025
 
-Hands-on training in ASIC backend design flow including floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and post-layout verification using Synopsys IC Compiler II. [link]
+Hands-on training in ASIC backend design flow including floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and post-layout verification using Synopsys IC Compiler II.
 
 ---
 
