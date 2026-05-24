@@ -1,5 +1,5 @@
 ---
-title: "Activities"
+title: "Activities and Awards"
 permalink: /activities/
 author_profile: true
 ---

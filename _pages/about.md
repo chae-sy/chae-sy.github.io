@@ -50,9 +50,11 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 <details>
 <summary>2025 News</summary>
 
-- Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC).  
-- Jun 2025 — I attended the VLSI Symposium 2025.  
-- Mar 2025 — I have awarded the Extra-Curricular Challenge Scholarship.
+<ul>
+  <li>Oct 2025 — I presented a paper at the 22nd International SoC Design Conference (ISOCC).</li>
+  <li>Jun 2025 — I attended the VLSI Symposium 2025.</li>
+  <li>Mar 2025 — I was awarded the Extra-Curricular Challenge Scholarship.</li>
+</ul>
 
 </details>
 
