@@ -235,3 +235,8 @@ Warp-state analysis showed that most stalls were due to Tensor Core pipeline lim
 By combining an N-stage global-to-shared pipeline with large-scale tiling, global memory latency was effectively hidden and Tensor Core utilization was maximized.
 
 These results demonstrate that achieving near-theoretical Tensor Core performance requires careful memory-layout design, warp-level data movement optimization, and asynchronous pipeline scheduling.
+
+
+# References
+[https://www.spatters.ca/mma-matmul](https://www.spatters.ca/mma-matmul)
+[https://siboehm.com/articles/22/CUDA-MMM](https://siboehm.com/articles/22/CUDA-MMM)
