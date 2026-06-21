@@ -84,7 +84,7 @@ $$
 \lambda_{sv}\mathcal{L}_{sv}
 $$
 
-where $$\mathcal{L}_{kws}$$ and $$\mathcal{L}_{sv}$$ were computed using $$\mathrm{AAMSoftmaxLoss}(\text{num\_classes}, \text{num\_emb\_dim})$$ for 64- and 256-dimensional embeddings, respectively.
+where $$\mathcal{L}_{kws}$$ and $$\mathcal{L}_{sv}$$ were computed using $$\operatorname{AAMSoftmaxLoss}(\text{num_classes}, \text{num_emb_dim})$$ for 64- and 256-dimensional embeddings, respectively.
 
 ---
 
