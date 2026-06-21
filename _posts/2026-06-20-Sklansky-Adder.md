@@ -128,6 +128,7 @@ Fig.11 : Sklansky Adder with Flip Flops
 ![Fig.12 : Sklansky Adder with Flip Flops Design](/images/2026-06-20/sklansky_ff.png)
 
 Fig.12 : Sklansky Adder with Flip Flops Design
+
 This figure shows the application circuit used to verify the 16-bit Sklansky adder. To accurately evaluate the adder under realistic operating conditions, flip-flops (FFs) were placed at both the input and output sides of the adder.
 
 The input flip-flops register the 16-bit operands A[15:0] and B[15:0] on the rising edge of the clock and provide stable inputs to the Sklansky adder. The adder then performs the addition and generates the sum S[15:0] and carry-out (Cout). The output flip-flops capture these results at the next clock edge, enabling synchronous operation and accurate timing measurements.
@@ -136,7 +137,7 @@ By surrounding the combinational adder with input and output registers, the circ
 
 ## Functionality Verification
 
-Case 1.
+### Case 1.
 
 ![Fig.13 : Case 1_1](/images/2026-06-20/case1-1.png)
 
@@ -152,7 +153,7 @@ S=0000_0000_0000_0000 → 1111_1111_1111_1111
 
 Cout = 0
 
-Case 2.
+### Case 2.
 
 ![Fig.15 : Case 2_1](/images/2026-06-20/case2-1.png)
 
@@ -168,7 +169,7 @@ S=1111_1111_1111_1111 → 0000_0000_0000_0000
 
 Cout = 0 → 1
 
-Case 3.
+### Case 3.
 
 ![Fig.17 : Case 3_1](/images/2026-06-20/case3-1.png)
 
