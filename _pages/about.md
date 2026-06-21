@@ -5,9 +5,12 @@ author_profile: true
 sitemap: true
 ---
 
-Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and reliable deep learning systems.  
+Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and reliable deep learning systems.
+
 I am currently first year Ph.D. student in Computer Engineering at North Carolina State University, advised by [Prof. Bokyung Kim](https://sites.google.com/view/bokyungs-website)
+
 I received my B.S. from Sungkyunkwan University, Seoul, South Korea, where I was fortunate enoguth to be advised by [Prof. Taewook Kang](https://sites.google.com/view/tkanggroup) and [Prof. Yulhwa kim](https://eic.skku.edu/home) on efficient AI systems. 
+
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
 🔎 **My current interests include:**
