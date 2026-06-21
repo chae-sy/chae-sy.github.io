@@ -3,21 +3,21 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-My research includes algorithmic optimization of Large Language Models (LLMs) and hardware implementations of Convolutional Neural Networks (CNNs) and LLMs. 
-Specifically, I worked on KV-cache compression for long-context reasoning tasks of LLMs and CUDA kernel development for efficient LLM inference. 
-I also work on hardware-friendly deployment of CNN keyword-spotting models, implementation of Verilog RTL codes for machine learning accelerators, and contributed to the Tape-Out of CNN accelerators. 
+My research includes algorithmic optimization of Large Language Models (LLMs) and hardware implementations of Convolutional Neural Networks (CNNs) and LLMs.<br>
+Specifically, I worked on KV-cache compression for long-context reasoning tasks of LLMs and CUDA kernel development for efficient LLM inference. <br>
+I also work on hardware-friendly deployment of CNN keyword-spotting models, implementation of Verilog RTL codes for machine learning accelerators, and contributed to the Tape-Out of CNN accelerators.<br>
 
-## 📦 Algorithm Level
+# 📦 Algorithm Level
 
-### KV-cache quantization and GPU inference
+## KV-cache quantization and GPU inference
 - Developed adaptive KV-cache quantization and tile-level precision control for LLM inference, co-designing quantization policies with memory bandwidth and hardware dataflow constraints to reduce KV memory traffic while preserving model quality.
 
-### CUDA Kernel Development for Fast Matrix Multiplication
+## CUDA Kernel Development for Fast Matrix Multiplication
 - Built optimized CUDA kernels for LLM inference leveraging block tiling, vectorized memory access, shared-memory reuse, warp-level tiling, and Tensor Core WMMA instructions. Reached near-PyTorch training/inference performance. [link](https://chae-sy.github.io/CUDA-MatMul)
 
 ---
-## 📦 Algorithm-Hardware Co-Design
-### FPGA LLM deployment
+# 📦 Algorithm-Hardware Co-Design
+## FPGA LLM deployment
 
 ![LLM on FPGA](/images/llm_on_fpga.jpg)
 
@@ -25,8 +25,8 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, impl
 
 ---
 
-## 📦 Hardaware & Circuit Level
-### Tape-out of CNN Accelerator for Keyword Spotting and Speaker Verification ASIC
+# 📦 Hardware & Circuit Level
+## Tape-out of CNN Accelerator for Keyword Spotting and Speaker Verification ASIC
 
 ![quantized BC-ResNet models for keyword spotting and speaker verification](/images/bc_resnet.jpg)
 
@@ -34,7 +34,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, impl
 
 - Quantized BC-ResNet for keyword spotting (KWS) and speaker-verification(SV) embeddings; implemented PTQ/QAT (CLE, bias correction, AWQ, SmoothQuant, PACT). Participated in the Multi-Project Wafer (MPW) program organized by IDEC and contributed to KWS and SV ASIC tape-out. [link](https://chae-sy.github.io/Quantized-BC-ResNet-Tape-Out/)
 
-### Capstone Design Project on CNN Hardware Accelerator for SubPixel Rendering
+## Capstone Design Project on CNN Hardware Accelerator for SubPixel Rendering
 
 ![Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm](/images/subpixel_render.jpg)
 [link](https://chae-sy.github.io/Capstone-Design/)
@@ -44,8 +44,9 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, impl
 - Designed its hardware accelerator in Verilog: developed a pipelined structure and validated its functionality.
 
 - Executed the full digital ASIC tape-out flow, including RTL synthesis, timing-driven place-and-route, power and timing sign-off, and final GDSII generation. Awarded Engineering Innovation Prize.
+
 ---
-## 📦 Intelligent Sensing and Fault Diagnosis
+# 📦 Intelligent Sensing and Fault Diagnosis
 
 [link](https://chae-sy.github.io/Smart-Factory/)
 - Developed a 1D-CNN LSTM–based fault diagnosis system for rotating machinery using vibration and acoustic signals, achieving up to 97.4% classification accuracy across multiple fault conditions.
