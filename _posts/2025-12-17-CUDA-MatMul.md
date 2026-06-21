@@ -239,5 +239,6 @@ These results demonstrate that achieving near-theoretical Tensor Core performanc
 
 
 # References
-[https://www.spatters.ca/mma-matmul](https://www.spatters.ca/mma-matmul)
-[https://siboehm.com/articles/22/CUDA-MMM](https://siboehm.com/articles/22/CUDA-MMM)
+[1] [https://www.spatters.ca/mma-matmul](https://www.spatters.ca/mma-matmul)
+
+[2] [https://siboehm.com/articles/22/CUDA-MMM](https://siboehm.com/articles/22/CUDA-MMM)
