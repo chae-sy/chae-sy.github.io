@@ -6,6 +6,8 @@ sitemap: true
 ---
 
 Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and reliable deep learning systems.  
+I am currently first year Ph.D. student in Computer Engineering at North Carolina State University, advised by [Prof. Bokyung Kim](https://sites.google.com/view/bokyungs-website)
+I received my B.S. from Sungkyunkwan University, Seoul, South Korea, where I was fortunate enoguth to be advised by [Prof. Taewook Kang](https://sites.google.com/view/tkanggroup) and [Prof. Yulhwa kim](https://eic.skku.edu/home) on efficient AI systems. 
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
 🔎 **My current interests include:**
@@ -16,7 +18,7 @@ My research focuses on making large-scale AI models more memory-efficient, deplo
 - Efficient dataflow and PIM architectures
 
 
-[📄 Download CV (as of Sep. 2026)](/files/cv_seoyoon_chae_sep_26.pdf)
+[📄 Download CV (as of Sep. 2026)](/files/cv_seoyoon_chae_sep_2026.pdf)
 
 ---
 
@@ -25,7 +27,7 @@ My research focuses on making large-scale AI models more memory-efficient, deplo
 Modern AI models are becoming increasingly large and computationally demanding.  
 I am interested in bridging the gap between algorithm design and hardware constraints — designing methods that are not only theoretically sound, but also efficient in memory, latency, and energy.
 
-My long-term goal is to build scalable AI systems that are both intelligent and efficient.
+My long-term goal is to build scalable AI systems that are both intelligent, efficient and reliable.
 
 ---
 
@@ -46,7 +48,7 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 ## 📰 News
 
 - July 2026 - I attended the ICML conference 2026.
-- Mar 2026 - I’ve accepted at Rutgers University for PhD studies in Electrical and Computer Engineering with Fellowship.
+- July 2026 - I’ve accepted at North Carolina State University for PhD studies in Electrical and Computer Engineering.
 
 <details>
   <summary>2025 News</summary>
@@ -61,7 +63,7 @@ My long-term goal is to build scalable AI systems that are both intelligent and 
 
 ## 🎓 Education
 
-**Rutgers University**  
+**North Carolina State University**  
 Ph.D. in Electrical and Computer Engineering (Sep. 2026 – Present)
 
 **Sungkyunkwan University**  
@@ -71,4 +73,4 @@ B.S. in Electronic and Electrical Engineering (Feb. 2022 - Aug. 2026)
 
 ## 📬 Contact
 
-✉️ Email: [seoyoon.chae@rutgers.edu](mailto:seoyoon.chae@rutgers.edu)
+✉️ Email: [seoyoon.chae@ncsu.edu](mailto:seoyoon.chae@ncsu.edu)

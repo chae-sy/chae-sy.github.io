@@ -12,16 +12,15 @@ author_profile: true
 
 ## 🎁 Academic Service
 
-- Ad Hoc Reviewer, IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II), 2026
+Conferences and Journals Review 
+- IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II), 2026
+- IEEE Asian Pacific Conference on Circuit and Systems, 2026
 
 ---
 
 ## 🏅 Awards and Scholarships
-
-- School of Engineering Fellow -  Rutgers University
-  Sep. 2026 - Jun. 2027
   
-- Senior Capstone Design Contest - Engineering Innovation Prize from SKKU
+- Senior Capstone Design Contest (at SKKU) - Engineering Innovation Prize
   Jun. 2025
 
 - Extra-Curricular Challenge Scholarship (Top 100 Volunteers in SKKU)  
@@ -49,7 +48,7 @@ gem5, dramsim3, Ramulator 2.0, NVIDIA Nsight Compute, MATLAB
 ### IDEC Workshop – Synopsys IC Compiler II for Block-Level Auto Place & Route  
 Sep. 17–19, 2025
 
-Hands-on training in ASIC backend design flow including floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and post-layout verification using Synopsys IC Compiler II. [link]
+Hands-on training in ASIC backend design flow including floorplanning, placement, clock tree synthesis (CTS), routing, timing closure, and post-layout verification using Synopsys IC Compiler II.
 
 ---
 
