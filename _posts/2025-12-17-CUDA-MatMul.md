@@ -1,7 +1,7 @@
 ---
-title: "[Project]  LLM on FPGA: Squeezing Language Models by Quantization and Multi-Query Attention and Its Efficient Hardware Architecture "
+title: "[Project] CUDA Matrix Multiplication Implementation and Optimization "
 date: 2025-12-17
-teaser: /images/2025-10-16/image.png
+teaser: /images/2025-12-17/tiling.png
 ---
 # 1. Implementation of Scaled Dot-Product Attention Using CUDA Kernels
 
