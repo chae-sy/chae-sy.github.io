@@ -44,13 +44,7 @@ Autoregressive generation typically caches **key–value (KV) tensors**, reducin
 
 For example, with **608 KiB BRAM** on an **Artix-7 FPGA**, the on-chip KV capacity is:
 
-$$
-\text{Token capacity}
-=
-\frac{608\,\text{KiB}}
-{12\,\text{layers} \times 2\,\text{KV tensors} \times 768\,\text{B}}
-\approx 33\,\text{tokens.}
-$$
+$$\text{Token capacity}=\frac{608\,\text{KiB}}{12\,\text{layers} \times 2\,\text{KV tensors} \times 768\,\text{B}}\approx 33\,\text{tokens.}$$
 To overcome this limitation, we integrate **sub-8-bit quantization** and **MQA** to compress the KV cache over **8×**, enabling **256-token inference** without DRAM.
 
 **Key contributions:**
