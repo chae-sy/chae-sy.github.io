@@ -99,8 +99,11 @@ Case 1.
 ![Fig.14 : Case 1_2](/images/2026-06-20/case1-2.png)
  
 A=0000_0000_0000_0000 → 0000_1111_0000_1111
+
 B=0000_0000_0000_0000 → 1111_0000_1111_0000
+
 S=0000_0000_0000_0000 → 1111_1111_1111_1111
+
 Cout = 0
 
 Case 2.
@@ -108,8 +111,11 @@ Case 2.
 ![Fig.16 : Case 2_2](/images/2026-06-20/case2-2.png)
  
 A=1111_1111_1111_1111
+
 B=0000_0000_0000_0000 → 0000_0000_0000_0001
+
 S=1111_1111_1111_1111 → 0000_0000_0000_0000
+
 Cout = 0 → 1
 
 Case 3.
@@ -117,8 +123,11 @@ Case 3.
 ![Fig.18 : Case 3_2](/images/2026-06-20/case3-2.png)
  
 A = 0000 0000 0000 0000 → 0000 0000 0000 0001
+
 B = 0000 0000 0000 0000 → 1111 1111 1111 1111
+
 S = 0000 0000 0000 0000 → 0000 0000 0000 0000
+
 Cout = 0 → 1
 
 Although the final sum output is zero, temporary glitches were observed on the sum bits during the input transition. This occurs because the propagate signals reach the sum XOR gates earlier than the carry signals generated through the prefix tree. As a result, the sum output temporarily changes before the correct carry arrives, and then settles to the correct final value. Therefore, these glitches are caused by unequal path delays in the combinational Sklansky adder and do not indicate a functional error.
