@@ -44,7 +44,7 @@ Autoregressive generation typically caches **key–value (KV) tensors**, reducin
 
 For example, with **608 KiB BRAM** on an **Artix-7 FPGA**, the on-chip KV capacity is:
 
-$text{Token capacity} = \frac{608 KiB}{12 \text{layers} × 2 \text{KV tensors} × 768 B} ≈ 33 \text{tokens.}$
+$$text{Token capacity} = \frac{608 KiB}{12 \text{layers} × 2 \text{KV tensors} × 768 B} ≈ 33 \text{tokens.}$$
 
 To overcome this limitation, we integrate **sub-8-bit quantization** and **MQA** to compress the KV cache over **8×**, enabling **256-token inference** without DRAM.
 
@@ -116,7 +116,7 @@ The hardware pipeline consists of **pre-layernorm**, **attention**, and **feed-f
 
 ### 4.1 Pre-LayerNorm
 
-Computes per-channel mean/variance, approximates $\frac{1}{\sqrt{\sigma^2 + \epsilon}}$ using a **LUT-based reciprocal square root**, and applies **4-bit affine parameters** (γ, β).
+Computes per-channel mean/variance, approximates $$\frac{1}{\sqrt{\sigma^2 + \epsilon}}$$ using a **LUT-based reciprocal square root**, and applies **4-bit affine parameters** (γ, β).
 
 ### 4.2 Attention and FFN Engines
 

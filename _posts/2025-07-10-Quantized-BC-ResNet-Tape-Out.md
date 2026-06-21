@@ -67,9 +67,9 @@ The model was trained on the **Google Speech Commands v2 (GSCD)** dataset using 
 
 Loss functions were defined using **AAM-Softmax**, with task-specific weighting parameters:
 
-- **SV loss** ($\lambda_{sv} = 0.3$)
-- **KWS loss** ($\lambda_{kws} = 0.25$)
-- **VAD loss** ($\lambda_{vad} = 1.0$)
+- **SV loss** ($$\lambda_{sv} = 0.3$$)
+- **KWS loss** ($$\lambda_{kws} = 0.25$$)
+- **VAD loss** ($$\lambda_{vad} = 1.0$$)
 
 
 Formally, the total training objective was expressed as:
@@ -84,7 +84,7 @@ $$
 \lambda_{sv}\mathcal{L}_{sv}
 $$
 
-where $\mathcal{L}_{kws}$ and $\mathcal{L}_{sv}$ were computed using $\mathrm{AAMSoftmaxLoss}(\text{num\_classes}, \text{num\_emb\_dim})$ for 64- and 256-dimensional embeddings, respectively.
+where $$\mathcal{L}_{kws}$$ and $$\mathcal{L}_{sv}$$ were computed using $$\mathrm{AAMSoftmaxLoss}(\text{num\_classes}, \text{num\_emb\_dim})$$ for 64- and 256-dimensional embeddings, respectively.
 
 ---
 
