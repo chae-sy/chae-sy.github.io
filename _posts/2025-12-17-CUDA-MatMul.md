@@ -3,6 +3,7 @@ title: "[Project] CUDA Matrix Multiplication Implementation and Optimization "
 date: 2025-12-17
 teaser: /images/2025-12-17/tiling.png
 ---
+Implemented and optimized CUDA kernels for scaled dot-product attention, attention linear projection, and Q/K/V projection using shared-memory tiling, WMMA Tensor Cores, PTX-level optimizations, vectorization, and asynchronous pipelining, achieving performance comparable to or exceeding PyTorch and cuBLAS baselines on NVIDIA Ada GPUs.
 # 1. Implementation of Scaled Dot-Product Attention Using CUDA Kernels
 
 The scaled dot-product attention operation was implemented on NVIDIA RTX 4060 Ti, RTX 5080, and L40S GPUs. Various optimization techniques previously applied to matrix multiplication on the Ada architecture were adapted to the attention computation.
