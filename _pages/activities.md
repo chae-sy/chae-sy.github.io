@@ -15,6 +15,7 @@ author_profile: true
 Conferences and Journals Review 
 - IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II), 2026
 - IEEE Asian Pacific Conference on Circuit and Systems, 2026
+- IEEE Asian Solid-State Circuits Conference, 2026
 
 ---
 

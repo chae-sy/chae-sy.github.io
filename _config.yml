@@ -31,7 +31,7 @@ author:
   location         : "Raleigh, NC"
   employer         : "North Carolina State University"
   uri              : # URL
-  email            : "seoyoon.chae@ncsu.edu" 
+  email            : "schae2@ncsu.edu" 
 
   # Academic websites
   academia         : # URL
@@ -39,7 +39,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=EUDRNREAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : #"https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0001-7712-6782"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

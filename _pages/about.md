@@ -5,16 +5,16 @@ author_profile: true
 sitemap: true
 ---
 
-Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and reliable deep learning systems.
+Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and private deep learning systems.
 
-I am currently first year Ph.D. student in Computer Engineering at North Carolina State University, advised by [Prof. Bokyung Kim](https://sites.google.com/view/bokyungs-website). <br>
-I received my B.S. from Sungkyunkwan University, Seoul, South Korea, where I was fortunate enough to be advised by [Prof. Taewook Kang](https://sites.google.com/view/tkanggroup) and [Prof. Yulhwa kim](https://eic.skku.edu/home) on efficient AI systems. 
+I am currently Ph.D. student in Computer Engineering at North Carolina State University, advised by [Prof. Bokyung Kim](https://sites.google.com/view/kimbokyung). <br>
+I received my B.S. from Sungkyunkwan University, Seoul, South Korea, where I was fortunate enough to be advised by [Prof. Taewook Kang](https://sites.google.com/view/tkanggroup) and [Prof. Yulhwa kim](https://eic.skku.edu/home). 
 
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
 🔎 **My current interests include:**
 - Model compression (quantization & sparsity)
-- Memory-efficient inference for large language models (LLMs)
+- Resource-efficient inference for large language models (LLMs)
 - KV-cache optimization for long-context decoding
 - Hardware-aware algorithm design (FPGA / ASIC accelerators)
 - Efficient dataflow and PIM architectures
@@ -35,7 +35,7 @@ My long-term goal is to build scalable AI systems that are both intelligent, eff
 
 ## 🧪 Current Research
 
-### Memory-Efficient LLM Inference
+### Resource-Efficient LLM Inference
 - KV-cache quantization and adaptive precision scheduling  
 - Tiling-based memory management strategies  
 - Eviction of KV-Cache based on geometric features for reasoning tasks  
@@ -75,4 +75,4 @@ B.S. in Electronic and Electrical Engineering (Feb. 2022 - Aug. 2026)
 
 ## 📬 Contact
 
-✉️ Email: [seoyoon.chae@ncsu.edu](mailto:seoyoon.chae@ncsu.edu)
+✉️ Email: [schae2@ncsu.edu](mailto:schae2@ncsu.edu), [sychaeee@g.skku.edu](mailto:sychaeee@g.skku.edu)
