@@ -1,25 +1,46 @@
 ---
-title: "Activities"
+title: "Activities and Awards"
 permalink: /activities/
 author_profile: true
 ---
 
 ## 👨‍🏫 Teaching Experience
 
-- Thermodynamics [ISS3317] (Teaching Assistant, Summer 2025)
+- Thermodynamics [ISS3317] (Teaching Assistant, Summer 2025, SKKU)
 
 ---
+
+## 🎁 Academic Service
+
+Conferences and Journals Review 
+- IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II), 2026
+- IEEE Asian Pacific Conference on Circuit and Systems, 2026
+- IEEE Asian Solid-State Circuits Conference, 2026
+
+---
+
+## 🏅 Awards and Scholarships
+  
+- Senior Capstone Design Contest (at SKKU) - Engineering Innovation Prize
+  Jun. 2025
+
+- Extra-Curricular Challenge Scholarship (Top 100 Volunteers in SKKU)  
+  Mar. 2025
+
+- Academic Excellence Scholarship (Top 12% GPA recipients in SKKU)  
+  Fall 2022
+
 
 ## 🧠 Skills
 
 ### Programming & ML
-CUDA (kernel optimization), C/C++, Python (PyTorch), LLVM
+CUDA (kernel optimization), C/C++, Python (PyTorch)
 
 ### Hardware & EDA
 (System)Verilog, Synopsys IC Compiler II, Design Compiler, Xilinx Vivado, Cadence Virtuoso
 
 ### Simulation & Verification
-gem5, NVIDIA Nsight Compute, MATLAB
+gem5, dramsim3, Ramulator 2.0, NVIDIA Nsight Compute, MATLAB
 
 ---
 

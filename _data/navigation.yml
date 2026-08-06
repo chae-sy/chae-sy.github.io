@@ -11,10 +11,7 @@ main:
   - title: "Work Experience"
     url: /work/
 
-  - title: "Awards & Honors"
-    url: /awards/
-
-  - title: "Activities"
+  - title: "Activities and Awards"
     url: /activities/
 
   - title: "Blog"
