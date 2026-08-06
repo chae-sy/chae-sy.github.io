@@ -27,7 +27,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Seoyoon Chae"
   pronouns         : # example: "she/her"  
-  bio              : "ECE M.S. Student in Sungkyunkwan University, interested in efficient and reliable deep learning systems." # Update this with a short bio that will appear in the sidebar
+  bio              : "ECE M.S. Student in Sungkyunkwan University, interested in efficient deep learning systems." # Update this with a short bio that will appear in the sidebar
   location         : "Suwon, Korea"
   employer         : "Sungkyunkwan University"
   uri              : # URL
