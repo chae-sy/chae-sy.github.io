@@ -6,7 +6,7 @@ permalink: publication/2026-esserc-ruah
 date: 2026-09-07
 venue: "2026 IEEE 52nd European Solid-State Electronics Research Conference (ESSERC)"
 authors: "Donghwan So, Seojin Kim, Huijeong Woo, Jeongmin Lee, Yejin Hwang, **Seoyoon Chae**, John Kustin, Seungjong Lee, and Taewook Kang"
-doi: "10.1109/ISOCC66390.2025.11329964"
+doi: ""
 ---
 
 Abstract

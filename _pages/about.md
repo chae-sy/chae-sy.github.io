@@ -5,10 +5,10 @@ author_profile: true
 sitemap: true
 ---
 
-Hello 👋 My name is Seoyoon Chae, and I am a Ph.D. student working on efficient and private deep learning systems.
+Hello 👋 My name is Seoyoon Chae, and I am a M.S. student working on efficient and private deep learning systems.
 
-I am currently Ph.D. student in Computer Engineering at North Carolina State University, advised by [Prof. Bokyung Kim](https://sites.google.com/view/kimbokyung). <br>
-I received my B.S. from Sungkyunkwan University, Seoul, South Korea, where I was fortunate enough to be advised by [Prof. Taewook Kang](https://sites.google.com/view/tkanggroup) and [Prof. Yulhwa kim](https://eic.skku.edu/home). 
+I am currently M.S. student in Electrical and Computer Engineering at Sungkyunkwan University, advised by [Prof. Yulhwa Kim](https://eic.skku.edu/yulhwa-kim). <br>
+Prior to that, I received my B.S. from Sungkyunkwan University, Suwon, South Korea. 
 
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
@@ -50,7 +50,6 @@ My long-term goal is to build scalable AI systems that are both intelligent, eff
 ## 📰 News
 
 - July 2026 - I attended the ICML conference 2026.
-- July 2026 - I’ve accepted at North Carolina State University for PhD studies in Electrical and Computer Engineering.
 
 <details>
   <summary>2025 News</summary>
@@ -65,8 +64,8 @@ My long-term goal is to build scalable AI systems that are both intelligent, eff
 
 ## 🎓 Education
 
-**North Carolina State University**  
-Ph.D. in Electrical and Computer Engineering (Sep. 2026 – Present)
+**Sungkyunkwan University**  
+M.S. in Electrical and Computer Engineering (Sep. 2026 – Present)
 
 **Sungkyunkwan University**  
 B.S. in Electronic and Electrical Engineering (Feb. 2022 - Aug. 2026)
@@ -75,4 +74,4 @@ B.S. in Electronic and Electrical Engineering (Feb. 2022 - Aug. 2026)
 
 ## 📬 Contact
 
-✉️ Email: [schae2@ncsu.edu](mailto:schae2@ncsu.edu), [sychaeee@g.skku.edu](mailto:sychaeee@g.skku.edu)
+✉️ Email: [sychaeee@g.skku.edu](mailto:sychaeee@g.skku.edu)
