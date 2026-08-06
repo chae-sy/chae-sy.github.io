@@ -46,7 +46,7 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, impl
 - Executed the full digital ASIC tape-out flow, including RTL synthesis, timing-driven place-and-route, power and timing sign-off, and final GDSII generation. Awarded Engineering Innovation Prize.
 
 ---
-# 📦 Intelligent Sensing and Fault Diagnosis
+# 📦 Others: Intelligent Sensing and Fault Diagnosis
 
 [link](https://chae-sy.github.io/Smart-Factory/)
 - Developed a 1D-CNN LSTM–based fault diagnosis system for rotating machinery using vibration and acoustic signals, achieving up to 97.4% classification accuracy across multiple fault conditions.
