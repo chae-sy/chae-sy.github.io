@@ -7,8 +7,8 @@ sitemap: true
 
 Hello 👋 My name is Seoyoon Chae, and I am a M.S. student working on efficient and private deep learning systems.
 
-I am currently M.S. student in Electrical and Computer Engineering at Sungkyunkwan University, advised by [Prof. Yulhwa Kim](https://eic.skku.edu/yulhwa-kim). <br>
-Prior to that, I received my B.S. from Sungkyunkwan University, Suwon, South Korea. 
+I am currently M.S. student in Electrical and Computer Engineering at Sungkyunkwan University, advised by [Prof. Yulhwa Kim](https://eic.skku.edu). <br>
+Prior to that, I received my B.S. in Electroninc and Electrical Engineering from Sungkyunkwan University, Suwon, South Korea. 
 
 My research focuses on making large-scale AI models more memory-efficient, deployable, and practical for real-world systems.
 
@@ -36,14 +36,14 @@ My long-term goal is to build scalable AI systems that are both intelligent, eff
 ## 🧪 Current Research
 
 ### Resource-Efficient LLM Inference
-- KV-cache quantization and adaptive precision scheduling  
-- Tiling-based memory management strategies  
-- Eviction of KV-Cache based on geometric features for reasoning tasks  
+- KV-cache Quantization and Eviction for Reasoning LLMs 
+- Custom GPU Kernel for accelerating Attention operators
+- Sparse and Token-Selective Attention
 
 ### Hardware-Aware Deep Learning
 - FPGA-based LLM accelerators: Network Quantization and Verilog Implementation
 - RTL Implementation and Verification, Synthesis and Place-and-Route for tape-out of CNN accelerators 
-- Design of DRAM-based PIM simulator for dynamic-precision LLM inference 
+- Design of DRAM-based PIM simulator for reliable and adaptive LLM inference 
 
 ---
 
