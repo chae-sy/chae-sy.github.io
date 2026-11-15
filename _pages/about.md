@@ -5,7 +5,7 @@ author_profile: true
 sitemap: true
 ---
 
-Hello 👋 My name is Seoyoon Chae, and I am a M.S. student working on efficient and private deep learning systems.
+Hello 👋 My name is Seoyoon Chae, and I am a M.S. student working on efficient deep learning systems.
 
 I am currently M.S. student in Electrical and Computer Engineering at Sungkyunkwan University, advised by [Prof. Yulhwa Kim](https://eic.skku.edu). <br>
 Prior to that, I received my B.S. in Electroninc and Electrical Engineering from Sungkyunkwan University, Suwon, South Korea. 
@@ -15,9 +15,9 @@ My research focuses on making large-scale AI models more memory-efficient, deplo
 🔎 **My current interests include:**
 - Model compression (quantization & sparsity)
 - Resource-efficient inference for large language models (LLMs)
-- KV-cache optimization for long-context decoding
+- KV-cache optimization for long-horizon decoding
 - Hardware-aware algorithm design (FPGA / ASIC accelerators)
-- Efficient dataflow and PIM architectures
+- Hardware accelerator and PIM architecture
 
 
 [📄 Download CV (as of Sep. 2026)](/files/cv_seoyoon_chae_sep_2026.pdf)
@@ -27,7 +27,7 @@ My research focuses on making large-scale AI models more memory-efficient, deplo
 ## 🎯 Research Vision
 
 Modern AI models are becoming increasingly large and computationally demanding.  
-I am interested in bridging the gap between algorithm design and hardware constraints — designing methods that are not only theoretically sound, but also efficient in memory, latency, and energy.
+I am interested in bridging the gap between algorithm design and hardware constraints, designing methods that are not only theoretically sound, but also efficient in memory, latency, and energy.
 
 My long-term goal is to build scalable AI systems that are both intelligent, efficient and reliable.
 

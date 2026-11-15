@@ -3,9 +3,9 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-My research includes algorithmic optimization of Large Language Models (LLMs) and hardware implementations of Convolutional Neural Networks (CNNs) and LLMs.<br>
-Specifically, I worked on KV-cache compression for long-context reasoning tasks of LLMs and CUDA kernel development for efficient LLM inference. <br>
-I also work on hardware-friendly deployment of CNN keyword-spotting models, implementation of Verilog RTL codes for machine learning accelerators, and contributed to the Tape-Out of CNN accelerators.<br>
+My research includes algorithmic optimization and hardware implementations of Convolutional Neural Networks (CNNs) and LLMs.<br>
+For algorithm level, I worked on KV-cache compression for long-context reasoning tasks of LLMs and CUDA kernel development for efficient LLM inference. <br>
+For hardware level, I worked on implementation of Verilog RTL codes and verification of ML Hardware Accelerator. I also contributed to the Tape-Out (Synthesis and Place-and-Route) of CNN accelerator ASIC and LLM deployment on FPGA.<br>
 
 # 📦 Algorithm Level
 
@@ -32,16 +32,16 @@ I also work on hardware-friendly deployment of CNN keyword-spotting models, impl
 
 - Fine-tuned CNN keyword-spotting (KWS) models for hardware-friendly deployment using framewise incremental computation scheme; designed Verilog RTL blocks for efficient CNN operations. Participated in the Multi-Project Wafer (MPW) program for undergraduate and graduate students organized by IDEC and contributed to the tape-out of KWS ASIC tape-out. [link](https://chae-sy.github.io/CNN-Tape-Out/)
 
-- Quantized BC-ResNet for keyword spotting (KWS) and speaker-verification(SV) embeddings; implemented PTQ/QAT (CLE, bias correction, AWQ, SmoothQuant, PACT). Participated in the Multi-Project Wafer (MPW) program organized by IDEC and contributed to KWS and SV ASIC tape-out. [link](https://chae-sy.github.io/Quantized-BC-ResNet-Tape-Out/)
+- conducted fully fixed-point integer-Quantization of BC-ResNet for keyword spotting (KWS) and speaker-verification(SV) embeddings; implemented PTQ/QAT (CLE, bias correction, AWQ, SmoothQuant, PACT). Participated in the Multi-Project Wafer (MPW) program organized by IDEC and contributed to KWS and SV ASIC tape-out. [link](https://chae-sy.github.io/Quantized-BC-ResNet-Tape-Out/)
 
 ## Capstone Design Project on CNN Hardware Accelerator for SubPixel Rendering
 
 ![Front-end and Back-end Design of Digital CNN Accelerator for SubPixel Rendering Algorithm](/images/subpixel_render.jpg)
 [link](https://chae-sy.github.io/Capstone-Design/)
 
-- Led a team of four undergraduates to implement and train a CNN-based subpixel rendering algorithm, optimizing network parameters using Incremental Network Quantization scheme.
+- Led a team of four undergraduates to train a CNN-based subpixel rendering algorithm, optimizing network parameters using Incremental Network Quantization.
 
-- Designed its hardware accelerator in Verilog: developed a pipelined structure and validated its functionality.
+- Designed its hardware accelerator in Verilog: developed a pipelined structure and verified its functionality.
 
 - Executed the full digital ASIC tape-out flow, including RTL synthesis, timing-driven place-and-route, power and timing sign-off, and final GDSII generation. Awarded Engineering Innovation Prize.
 
