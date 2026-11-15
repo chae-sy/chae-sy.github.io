@@ -42,8 +42,8 @@ My long-term goal is to build scalable AI systems that are both intelligent, eff
 
 ### Hardware-Aware Deep Learning
 - FPGA-based LLM accelerators: Network Quantization and Verilog Implementation
-- RTL Implementation and Verification, Synthesis and Place-and-Route for tape-out of CNN accelerators 
-- Design of DRAM-based PIM simulator for reliable and adaptive LLM inference 
+- ASIC tape-out of CNN accelerators: RTL Implementation and Verification, Synthesis and Place-and-Route 
+- DRAM-based PIM simulator for reliable and adaptive LLM inference 
 
 ---
 
